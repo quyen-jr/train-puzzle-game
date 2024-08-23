@@ -1,0 +1,52 @@
+{
+    "background": [
+      {
+        "imageKey": "grass",
+        "displaySize": {
+            "width": 1280,
+            "height": 720
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "position": {
+          "x": 640,
+          "y": 360
+        }
+      },
+      {
+        "imageKey": "grass",
+        "displaySize": {
+          "width": 640,
+          "height": 320
+        },
+        "position": {
+          "x": 640,
+          "y": 0
+        }
+      },
+      {
+        "imageKey": "grass",
+        "displaySize": {
+          "width": 640,
+          "height": 320
+        },
+        "position": {
+          "x": 640,
+          "y": 320
+        }
+      },
+      {
+        "imageKey": "grass",
+        "displaySize": {
+          "width": 640,
+          "height": 320
+        },
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      }
+    ]
+}

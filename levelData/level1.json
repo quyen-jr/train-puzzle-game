@@ -1,0 +1,97 @@
+{
+    "background": [
+      {
+        "imageKey": "grass",
+        "displaySize": {
+            "width": 1280,
+            "height": 720
+        },
+        "origin": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "position": {
+          "x": 640,
+          "y": 360
+        }
+      },
+      {
+        "imageKey": "grass",
+        "displaySize": {
+          "width": 640,
+          "height": 320
+        },
+        "position": {
+          "x": 640,
+          "y": 0
+        }
+      },
+      {
+        "imageKey": "grass",
+        "displaySize": {
+          "width": 640,
+          "height": 320
+        },
+        "position": {
+          "x": 640,
+          "y": 320
+        }
+      },
+      {
+        "imageKey": "grass",
+        "displaySize": {
+          "width": 640,
+          "height": 320
+        },
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "roadImages": [
+        { "type": "straight", "x": 875, "y": 25, "scale": 0.45, "rotation": 41, "flipY": false },
+        { "type": "straight", "x": 823, "y": 85, "scale": 0.45, "rotation": 41, "flipY": false },
+        { "type": "straight", "x": 780, "y": 135, "scale": 0.44, "rotation": 41, "flipY": false },
+        { "type": "straight", "x": 600, "y": 355, "scale": 0.45, "rotation": 35, "flipY": false },
+        { "type": "straight", "x": 555, "y": 420, "scale": 0.45, "rotation": 35, "flipY": false },
+        { "type": "straight", "x": 510, "y": 485, "scale": 0.45, "rotation": 35, "flipY": false },
+        { "type": "straight", "x": 465, "y": 550, "scale": 0.45, "rotation": 35, "flipY": false },
+        { "type": "straight", "x": 420, "y": 615, "scale": 0.45, "rotation": 35, "flipY": false },
+        { "type": "straight", "x": 375, "y": 680, "scale": 0.45, "rotation": 35, "flipY": false },
+        { "type": "straight", "x": 330, "y": 745, "scale": 0.45, "rotation": 35 , "flipY": false},
+        { "type": "curve", "x": 570, "y": 235, "scale": 0.6, "rotation": 130, "flipY": true },
+        { "type": "straight", "x": 370, "y": 252, "scale": 0.5, "rotation": 130 , "flipY": false},
+        { "type": "straight", "x": 305, "y": 197, "scale": 0.5, "rotation": 130 , "flipY": false}
+      ],   
+    "buttons": {
+      "straightbtnInfo": {
+        "texture": "assets",
+        "frame": "forwardDirection",
+        "position": {"x": 47.3, "y": 48},
+        "scale": 0.4,
+        "rotation": 0,
+        "alpha": 0.8
+      },
+      "curvebtnInfo": {
+        "texture": "assets",
+        "frame": "curveDirection",
+        "position": {"x": 46, "y": 48},
+        "scale": 0.4,
+        "rotation": 0,
+        "alpha": 0.9,
+        "visible": false
+      }
+    },
+    "roads": {
+      "road1": {"points": [{"x": 970, "y": -100}, {"x": 645, "y": 308}]},
+      "road2": {"points": [{"x": 645, "y": 308}, {"x": 200, "y": 900}]},
+      "road3": {
+        "ellipse": {"x": 150, "y": 150, "startAngle": 0, "endAngle": 90, "clockwise": false, "rotation": 45},
+        "points": [{"x": 645, "y": 308},{"x": 230, "y": 150}]
+      }
+    }
+   
+  }
+
+  
